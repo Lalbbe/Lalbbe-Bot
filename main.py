@@ -1,10 +1,11 @@
 import discord
 import datetime
+import os
 
 client = discord.Client()
 
-# 생성된 토큰을 입력해준다.
-token = "NzQ5MTc4OTc4MTA2OTk4Nzg1.X0oNSw.YZimO7vfGAK1MI_VxA6puzjybRw"
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 
 # 봇이 구동되었을 때 보여지는 코드
 @client.event
