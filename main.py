@@ -69,7 +69,7 @@ async def on_message(message):
       a = datetime.datetime(2022, 3, 23)
     b = datetime.datetime.now()
     c = (a-b)
-    await message.channel.send(c일)
+    await message.channel.send(c)
 
 
 
